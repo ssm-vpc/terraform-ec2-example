@@ -3,10 +3,10 @@ provider "aws" {
 }
 
 resource "aws_instance" "example" {
-  ami           = var.ami_id
+  ami           = var.ami
   instance_type = var.instance_type
 
   tags = {
-    Name = "Jenkins-EC2"
+    Name = "Jenkins-Terraform-Instance"
   }
 }
