@@ -1,0 +1,8 @@
+# Terraform state and cache
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfplan
+
+# Sensitive files
+terraform.tfvars
